@@ -1,0 +1,21 @@
+:root{
+    --gold:#d49724;
+    --lightGreen:#71a473;
+}
+.text-gold{
+    color: var(--gold);
+}
+body{
+    height: 10000px;
+    background-color: #d49724;
+}
+.ff{
+    position: fixed;
+    left: 0;
+    width: 25%;
+}
+.nn{
+   
+    left:20%;
+    width: 75%;
+}

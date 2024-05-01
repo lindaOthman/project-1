@@ -1,0 +1,21 @@
+:root{
+    --buttonColor:#d49724;
+    --green:#86c088;
+    --navbarColor:#201e1e;
+/* ca8300   d08703  gray393939 292929 green105212 goldd98f09*/
+}
+.navbarColor{
+    background-color: var(--navbarColor);
+}
+.textColor{
+    color: var(--buttonColor) !important;
+}
+.textGreenColor{
+    color: var(--green) !important;
+}
+.greenColor{
+    color: var(--green);
+}
+.hoverColor:hover a{
+    color: white;
+}

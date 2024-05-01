@@ -1,0 +1,59 @@
+body{
+    background-color: #201e1e;
+}
+:root{
+    --gold:#d49724;
+    --lightGreen:#71a473;
+}
+a{
+    text-decoration: none;
+    color: var(--gold);
+}
+.w-70{
+    width: 70%;
+}
+.goldColor{
+    color: var(--gold);
+}
+.btn-gold{
+    background-color: var(--gold);
+}
+.bttn:hover {
+    transition: 1s;
+    
+    background-color:#a56f0a ;
+}
+.lightGreen{
+    color: var(--lightGreen);
+}
+.headerBackground{
+    background-image: linear-gradient(rgba(3, 3, 3, 0.7),#0f121eb3),url('public/img/street4.jpg');
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.title h1{
+    font-size: 65px;
+}
+/* section 2 */
+.section2{
+    background-image: linear-gradient(rgba(9, 10, 16, 0.7),#07674cb3),url('public/img/home.png');
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+.section2 h2{
+    line-height: 50px;
+}
+
+/* section3 */
+.HowToReport h2{
+    color: var(--gold);
+    /* font-size:50px ; */
+}
+.HowToReport li{
+    line-height: 3.5rem;
+    font-size: 25px;
+}

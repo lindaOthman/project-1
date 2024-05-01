@@ -1,0 +1,50 @@
+
+/* done */
+.backgroung{
+    background-image: linear-gradient(rgba(4,9,30,0.7),#04091eb3),url('public/img/5537786927_e9c5deed0f_k.jpg');
+    background-position: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    /*padding: 30px 0;*/
+}
+.facebookColor{
+    background-color: #1874EB;
+}
+.facebookColor1{
+    color: white !important;
+}
+.cardColor{
+    background-color: #1a1a1a;
+    opacity: .85;
+}
+.inputColor{
+    outline: #111111;
+    background-color: #111111;
+    opacity: .6;
+}
+.inputColor::placeholder{
+    color:#8E8E8E;
+}
+.grayColor{
+    color:#8E8E8E;
+}
+.text::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 33%;
+    height: 1px;
+    background: #8E8E8E;
+}
+.text::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 33%;
+    height: 1px;
+    background: #8E8E8E;
+}
